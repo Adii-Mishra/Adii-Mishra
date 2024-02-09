@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Nature.com/Contact Us</title>
+        <style>
+            .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        .topnav a{
+            align-content: center;
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration:none;
+            font-size: 24px;
+            font-style: oblique;
+        }
+        .topnav a:hover {
+            background-color: rgb(168, 183, 174);
+            color:black
+        }
+        .topnav a.active {
+            background-color: rgb(168, 183, 174);
+            color:black 
+        }
+        body {
+            background-color: #558f4e;
+        
+        }
+            form {
+                align-items: center;
+                justify-content: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                line-height:1;
+                min-height:100vh;
+                background: #6aa163;
+            }
+            .main {
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                padding: 20px;
+                transition: transform 0.2s;
+                width: 600px;
+                background-color: #6aa163;
+                        }
+
+                
+                form {
+                    display:grid;
+                    place-items: center;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                h1 {
+                    text-align: center;
+                    color: rgb(11, 65, 22);
+                }
+                input {
+                    padding: 10px;
+                }
+        </style>
+</head>
+<body> 
+    <div class="topnav">
+        <a href="http://127.0.0.1:3000/c:/Users/hp/Desktop/USING BLOCKS.html" >Home</a>
+        <a href="http:\\127.0.0.1:3000\c:/Users/hp/Desktop/tables.html" >About Us</a>
+        <a class="active"  href="http:\\127.0.0.1:3000\c:\Users\hp\Desktop\using forms.html" >Contact</a>
+        <a href="http:\\127.0.0.1:3000\c:\Users\hp\Desktop\img.html">Gallery</a>
+</div> <br> <center>
+    <div class="main">
+    <h1> Contact Us </h1>
+    <form>
+        <label for="fname"> First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname"> Last Name:</label><br>
+        <input type="text" id="fname" name="lname"><br> <br>
+       <b> <p>Choose your Purpose:</p></b>
+        <input type="radio" id="Business" name="Purpose" value="Business">
+        <label for="Business"> Business </label><br>
+        <input type="radio" id="Leisure" name="Purpose" value="Leisure">
+        <label for="Leisure"> Leisure </label><br><br>
+        <b><p>Services you liked:</p></b>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Cleaniness">
+        <label for="vehicle1"> Cleaniness </label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Customer Care">
+        <label for="vehicle2"> Customer Care </label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Eco Friendly">
+        <label for="vehicle3"> Eco Friendly </label><br>
+       <br> <p><button type="submit">Submit</button></p>
+    </form>
+    </div> </center>
+</body>
+</html>
